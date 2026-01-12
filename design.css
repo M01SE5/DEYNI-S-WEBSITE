@@ -1,0 +1,257 @@
+#socials {
+    background-image: url("socialsbg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#socials .hero {
+    color: #fff;
+}
+
+#products {
+    background-image: url("productsbg.jpg");
+    color: #fff;
+}
+#about {
+    background-image: url("aubg.jpg");
+    color: #fff;
+}
+.buttonau {
+    display: inline;
+    justify-content: flex-start;
+    gap: 2rem; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #302312; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #8b4513;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#home {
+    background-image: url("homepagebg.jpg");
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(10px); 
+    padding: 2rem; 
+    border-radius: 10px; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; 
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #fff;
+    color: #8b4513;
+    text-decoration: overline underline;
+    border-radius: 15px;
+    transition: background 0.5s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #fbce57;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    text-align: center;
+	backdrop-filter: blur(10px);
+	
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #fffff;
+}
+
+p {
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    width: 400px;
+    height: 400px; 
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    color: #fff;
+	justify-content: center;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.product-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.product-card p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.milk {
+    background-color: #732f20;
+	
+}
+
+.dark {
+    background-color: #323234;
+}
+
+.white {
+    background-color: #b79d80;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background: #8b4513;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.social-links a:hover {
+    background: #a0522d;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.home-btn button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #fff;
+    color: #8b4513;
+    text-decoration: overline underline;
+    border-radius: 15px;
+    transition: background 0.5s;
+    font-weight: bold;
+}
+
+.home-btn:hover {
+    background: #fbce57;
+}
